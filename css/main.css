@@ -911,8 +911,23 @@ hr {
 	/* width and height can be anything, as long as they're equal */
 }
 
-
-
 /*end section II*/
 
+/* section IV*/
+#price {
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+#price > .row {
+    margin: 30px
+}
+/*end section IV*/
 
