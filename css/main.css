@@ -385,7 +385,15 @@ h2 {
 /*************************
 ******Footer CSS****
 **************************/
-
+#footer{
+  background: #2c3e50;
+}
+.copyright{
+  padding: 35px 0;
+  color: #ecf0f1;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 19px;
+}
 /*section II*/
 #about-landing {
     color: black;
