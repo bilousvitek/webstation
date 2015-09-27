@@ -20,7 +20,7 @@ jQuery(function($) {'use strict',
 
 		if(windowWidth > 767 ){
 			$(window).on('scroll', function(){
-				if( $(window).scrollTop()>405 ){
+				if( $(window).scrollTop()>175 ){
 					$('.main-nav').addClass('fixed-menu animated slideInDown');
 				} else {
 					$('.main-nav').removeClass('fixed-menu animated slideInDown');
