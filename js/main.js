@@ -145,3 +145,5 @@ jQuery(function($) {'use strict',
 
 	map.setStyle("map_style");
 }());*/
+
+

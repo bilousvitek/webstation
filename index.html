@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,155 +9,145 @@
     <title>WebStation</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<!-- <link href="css/animate.css" rel="stylesheet"> -->	
-	<link href="css/responsive.css" rel="stylesheet">
-
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/animate.css" rel="stylesheet"> -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
     <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/respond.min.js"></script>
-    <![endif]-->    
-
-   <!--  <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!--  <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> -->
-
-</head><!--/head-->
+</head>
+<!--/head-->
 
 <body>
-	<header id="header" role="banner">		
-		<div class="main-nav">
-			<div class="container">
-				<div class="header-top">
-					<div class="pull-right social-icons">
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-youtube"></i></a>
-					</div>
-				</div>     
-		        <div class="row">	        		
-		            <div class="navbar-header">
-		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		                    <span class="sr-only">Toggle navigation</span>
-		                    <span class="icon-bar"></span>
-		                    <span class="icon-bar"></span>
-		                    <span class="icon-bar"></span>
-		                </button>
-		                <a class="navbar-brand" href="index.html">
-		                	<div class="brand-img"><img class="img-responsive" src="images/logo/logo_circle.png" alt="logo"></div>
-		                	<div class="brand-text"><img class="img-brand-text" src="images/logo/brand-text-proba-2.png" alt="logo"></div>
-		                </a>                    
-		            </div>
-		            <div class="collapse navbar-collapse">
-		                <ul class="nav navbar-nav navbar-right">                 
-		                    <li class="scroll active"><a href="#home">Home</a></li>
-		                    <li class="scroll"><a href="#about">About</a></li>                     
-		                    <li class="no-scroll"><a href="#twitter">Twitter</a></li>
-		                    <li><a class="no-scroll" href="#" target="_blank">PURCHASE TICKETS</a></li>
-		                    <li class="scroll"><a href="#contact">Contact</a></li>       
-		                </ul>
-		            </div>
-		        </div>
-	        </div>
-        </div>                    
+    <header id="header" role="banner">
+        <div class="main-nav">
+            <div class="container">
+                <div class="header-top">
+                    <div class="pull-right social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <div class="brand-img"><img class="img-responsive" src="images/logo/logo_circle.png" alt="logo"></div>
+                            <div class="brand-text"><img class="img-brand-text" src="images/logo/brand-text-proba-2.png" alt="logo"></div>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="scroll active"><a href="#home">Home</a></li>
+                            <li class="scroll"><a href="#about">About</a></li>
+                            <li class="no-scroll"><a href="#twitter">Twitter</a></li>
+                            <li><a class="no-scroll" href="#" target="_blank">PURCHASE TICKETS</a></li>
+                            <li class="scroll"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <!--/#header--> 
-
-    <div id="loader-wrapper">
+    <!--/#header-->
+    <!--  <div id="loader-wrapper">
         <div id="loader"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-    </div>
-
-    <section id="home">	
-		<div id="main-slider" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
-				<li data-target="#main-slider" data-slide-to="1"></li>
-				<li data-target="#main-slider" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active">
-					<img class="img-responsive" src="images/slider/slide1.jpg" alt="slider">						
-					<div class="carousel-caption">
-						<h2>Якісний сайт-візитка </h2>
-						<h4>за неймовірно низькою ціною</h4>
-						<a href="#contact">Замовити <i class="fa fa-angle-right"></i></a>
-					</div>
-				</div>
-				<div class="item">
-					<img class="img-responsive" src="images/slider/slide2.jpg" alt="slider">	
-					<div class="carousel-caption">
-						<h2>register for our next event </h2>
-						<h4>full event package only @$199</h4>
-						<a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
-					</div>
-				</div>
-				<div class="item">
-					<img class="img-responsive" src="images/slider/slide4.jpg" alt="slider">	
-					<div class="carousel-caption">
-						<h2>register for our next event </h2>
-						<h4>full event package only @$199</h4>
-						<a href="#contact" >GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
-					</div>
-				</div>		
-				<div class="item">
-					<img class="img-responsive" src="images/slider/slide4.jpg" alt="slider">	
-					<div class="carousel-caption">
-						<h2>register for our next event </h2>
-						<h4>full event package only @$199</h4>
-						<a href="#contact" >GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
-					</div>
-				</div>			
-			</div>
-		</div>    	
-    </section>
-	<!--/#home-->
-
-     <!-- #section II-->
-    <section id="about-landing">
-            <div class="row center">
-                <div class="center">
-                    <h1>Landing Page підходить для...</h1>
-                    <hr>
+    </div> -->
+    <section id="home">
+        <div id="main-slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="images/slider/slide1.jpg" alt="slider">
+                    <div class="carousel-caption">
+                        <h2>Якісний сайт-візитка </h2>
+                        <h4>за неймовірно низькою ціною</h4>
+                        <a href="#contact">Замовити <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
-                <div class="">
-                <div class=" col-sm-6 col-md-3 ">
-                <i class="glyphicon glyphicon-earphone block-icon"></i>
-                    <h3 class="center">Сфери послуг</h3>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus                  
-               </div>
-                <div class=" col-sm-6 col-md-3">
-                <i class="glyphicon glyphicon-list-alt block-icon"></i>
-                   <h3 class="center">Торгівлі</h3>
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus  
+                <div class="item">
+                    <img class="img-responsive" src="images/slider/slide2.jpg" alt="slider">
+                    <div class="carousel-caption">
+                        <h2>register for our next event </h2>
+                        <h4>full event package only @$199</h4>
+                        <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
-                <div class=" col-sm-6 col-md-3">
-                <i class="glyphicon glyphicon-usd block-icon"></i>
-                   <h3 class="center">Бізнесу</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus 
+                <div class="item">
+                    <img class="img-responsive" src="images/slider/slide4.jpg" alt="slider">
+                    <div class="carousel-caption">
+                        <h2>register for our next event </h2>
+                        <h4>full event package only @$199</h4>
+                        <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
-                <div class=" col-sm-6 col-md-3">
-                <i class="glyphicon glyphicon-barcode block-icon"></i>
-                   <h3 class="center">Виробників</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus 
-                </div>
+                <div class="item">
+                    <img class="img-responsive" src="images/slider/slide4.jpg" alt="slider">
+                    <div class="carousel-caption">
+                        <h2>register for our next event </h2>
+                        <h4>full event package only @$199</h4>
+                        <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <!--/#home-->
+    <!-- #section II-->
+    <section id="about-landing">
+        <div class="row center">
+            <div class="center">
+                <h1>Landing Page підходить для...</h1>
+                <hr>
+            </div>
+            <div class="">
+                <div class=" col-sm-6 col-md-3 ">
+                    <i class="glyphicon glyphicon-earphone block-icon"></i>
+                    <h3 class="center">Сфери послуг</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus
+                </div>
+                <div class=" col-sm-6 col-md-3">
+                    <i class="glyphicon glyphicon-list-alt block-icon"></i>
+                    <h3 class="center">Торгівлі</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus
+                </div>
+                <div class=" col-sm-6 col-md-3">
+                    <i class="glyphicon glyphicon-usd block-icon"></i>
+                    <h3 class="center">Бізнесу</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus
+                </div>
+                <div class=" col-sm-6 col-md-3">
+                    <i class="glyphicon glyphicon-barcode block-icon"></i>
+                    <h3 class="center">Виробників</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur obcaecati animi temporibus
+                </div>
+            </div>
+        </div>
     </section>
     <!-- /#section II -->
-
-
-	<section class="no-padding" id="portfolio">
+    <section class="no-padding" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
-                    <div class="center">
-                     <h1>Приклади Landing Page</h1>
-                     <hr>
-                 </div>
+                <div class="center">
+                    <h1>Приклади Landing Page</h1>
+                    <hr>
+                </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
@@ -247,7 +238,7 @@
                         </div>
                     </a>
                 </div>
-                 <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -294,44 +285,43 @@
                 </div>
             </div>
         </div>
-    </section> <!-- end porfolio -->
-
-	<!-- #section IV -->
-	<section id="price">
-	    <h1 class="center">Що входить в роботу?</h1>
-	    <div class="row">
-	        <div class="col-md-6 verticalLine">
-	            <p>Індивідуальний підхід до кожного проекту</p>
-	        </div>
-	    </div>
+    </section>
+    <!-- end porfolio -->
+    <!-- #section IV -->
+    <section id="price">
+        <h1 class="center">Що входить в роботу?</h1>
         <div class="row">
-	        <div class="col-md-offset-6 col-md-6 verticalLine">
-	            <p>Адаптивна верстка під планшети та мобільні пристрої</p>
-	        </div>
-	    </div>
-	   <div class="row">
-	        <div class="col-md-6 verticalLine">
-	            <p>Кросбраузерна верстка під усі типи браузерів</p>
-	        </div>
-	    </div>
+            <div class="col-md-6 verticalLine">
+                <p>Індивідуальний підхід до кожного проекту</p>
+            </div>
+        </div>
         <div class="row">
-	        <div class="col-md-offset-6 col-md-6 verticalLine">
-	            <p>Безкоштовна консультація з розміщення сайту</p>
-	        </div>
-	    </div>
-	    <div class="row">
-	        <div class="col-md-6 verticalLine">
-	            <p>Визначення, сегментація і аналіз цільової аудиторії</p>
-	        </div>
-	    </div>
+            <div class="col-md-offset-6 col-md-6 verticalLine">
+                <p>Адаптивна верстка під планшети та мобільні пристрої</p>
+            </div>
+        </div>
         <div class="row">
-	        <div class="col-md-offset-6 col-md-6 verticalLine">
-	            <p>Розробка дизайну індивідуально для кожного клієнта</p>
-	        </div>
-	    </div>	    
-	</section>
-	<!-- /#section IV -->
-
+            <div class="col-md-6 verticalLine">
+                <p>Кросбраузерна верстка під усі типи браузерів</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-6 col-md-6 verticalLine">
+                <p>Безкоштовна консультація з розміщення сайту</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 verticalLine">
+                <p>Визначення, сегментація і аналіз цільової аудиторії</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-6 col-md-6 verticalLine">
+                <p>Розробка дизайну індивідуально для кожного клієнта</p>
+            </div>
+        </div>
+    </section>
+    <!-- /#section IV -->
     <!-- Video section -->
     <section id="video">
         <div style="" id="video-wrap" class="video-wrap">
@@ -341,97 +331,129 @@
             </video>
         </div>
     </section>
-
-    <!-- Temp section -->
-    <section id="after-video">
-    </section>
-	
-	<section id="contact">
+    <!-- HOW WE WORK SECTION -->
+    <section id="how-we-work">
+        <div class="row">
+            <div class="text-center">
+                <h1>Як ми працюємо?</h1>
+            </div>
+            <hr>
+        </div>
         <div class="container">
             <div class="row">
-            <div class="center">
-                <h1>Бажаєте замовити Landing Page?</h1>
-                <hr>
-                <div class="col-md-6">
-                    <h3>Звяжіться з нами!</h3>
-                    <hr>
-                </div>
-                <div class="col-md-6">
-                    <h3>Напишіть нам!</h3>
-                    <hr>
-                    <form>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" type="text" placeholder="*Ім'я">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="tel" placeholder="*Телефон">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" placeholder="*Email">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Повідомлення" rows="6"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                            <button class="btn btn-default">Надіслати</button>
-                        </div>
-                        </div>
-                    <form>
-                </div>
-            </div>
+               <div class="tabs tabs-style-circle" id="what-we-work">
+                    <nav>
+                        <ul>
+                            <li><a href="#section-circle-1" class="icon fa fa-money"><span>Оплата</span></a></li>
+                            <li><a href="#section-circle-2" class="icon fa fa-search"><span>Аналіз</span></a></li>
+                            <li><a href="#section-circle-3" class="icon fa fa-cog"><span>Розробка</span></a></li>
+                            <li><a href="#section-circle-4" class="icon fa fa-bug"><span>Тестування</span></a></li>
+                            <li><a href="#section-circle-5" class="icon fa fa-users"><span>Підтримка</span></a></li>
+                        </ul>
+                    </nav>
+                    <div class="content-wrap">
+                        <section id="section-circle-1"><p>Lorem ipsum doo quia. Sunt veniam asperiores dolor. Dignissimos maiores, quibusdam, debitis commodi possimus doloribus accusantium beatae. Incidunt, voluptas, modi!</p></section>
+                        <section id="section-circle-2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor reiciendis quis suscipit iure aperiam minus sunt voluptatum, obcaecati beatae mollitia atque blanditiis.</p></section>
+                        <section id="section-circle-3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem, ipsam! Id, cupiditate, nemo. Labore quibusdam enim corporis blanditiis, sit quos nihil nulla optio</p></section>
+                        <section id="section-circle-4"><p>adipisicing elit. Assumenda modi temporibus, ratione iusto accusantium repellendus minima neque dicta aut voluptates repellat molestias corporis aperiam, molestiae possimus fuga, provident et, corrupti!</p></section>
+                        <section id="section-circle-5"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae illum debitis  dolorem nobis, asperiores ipsam possimus. Quam, cumque fuga officia iure facilis accusamus odio.</p></section>
+                    </div><!-- /content -->
+                </div><!-- /tabs -->
             </div>
         </div>
-	</section>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="c
+ontainer">
+            <div class="row">
+                <div class="center">
+                    <h1>Бажаєте замовити Landing Page?</h1>
+                    <hr>
+                    <div class="col-md-6">
+                        <h3>Звяжіться з нами!</h3>
+                        <hr>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Напишіть нам!</h3>
+                        <hr>
+                        <form>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="*Ім'я">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" type="tel" placeholder="*Телефон">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" type="email" placeholder="*Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Повідомлення" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <button class="btn btn-default">Надіслати</button>
+                                </div>
+                            </div>
+                            <form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- #contact -->
-
     <footer id="footer">
         <div class="copyright center">
-        © webStation.com.ua - створення сайтів - візиток | Copyright 2015
-    </div>
+            © webStation.com.ua - створення сайтів - візиток | Copyright 2015
+        </div>
     </footer>
     <!--/#footer-->
-
     </script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  	<script type="text/javascript" src="js/gmaps.js"></script> -->
-	<script type="text/javascript" src="js/smoothscroll.js"></script>
+    <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="js/gmaps.js"></script> -->
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/jquery.parallax.js"></script>
     <script type="text/javascript" src="js/coundown-timer.js"></script>
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <script type="text/javascript" src="js/main.js"></script> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/backgroundVideo.min.js"></script>
+    <script src="js/cbpFWTabs.js"></script>
+        <script>
+            (function() {
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
-    <script type="text/javascript" src="js/backgroundVideo.min.js"></script>  
+                [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                    new CBPFWTabs( el );
+                });
 
+            })();
+        </script>
     <!-- portfolio -->
-
-<!-- 
-	<script src="js/jquery.easing.min.js"></script>
+    <!-- 
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/portfolio.js"></script> 
 -->
-<!-- PRELOADER -->
-<script>
+    <!-- PRELOADER -->
+    <script>
     $(document).ready(function() {
-    
-    setTimeout(function(){
-        $('body').addClass('loaded');
-    }, 1000);
-    
-});
-</script>
-<!-- /PRELOADER -->
 
-<script>
+        setTimeout(function() {
+            $('body').addClass('loaded');
+        }, 1000);
+
+    });
+    </script>
+    <!-- /PRELOADER -->
+    <script>
     $(document).ready(function() {
         $('#my-video').backgroundVideo({
             $outerWrap: $('.video'),
@@ -441,7 +463,7 @@
             }
         });
     });
-</script>
-
+    </script>
 </body>
+
 </html>
