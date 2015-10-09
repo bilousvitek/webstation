@@ -29,6 +29,18 @@ body {
 
 }
 
+.btn-warning {
+    color: #fff;
+    background-color: #FF7519;
+    border-color: #FF7519;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #E65C00;
+    border-color: #E65C00;
+}
+
 /*--- ScrollBar ---*/
 ::-webkit-scrollbar {
     width: 12px;
