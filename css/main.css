@@ -410,6 +410,13 @@ h2 {
   padding-top: 100px;
   background: #34495e;
 }
+#contact .desc{
+  font-size: 13px;
+}
+#contact span{
+  font-size: 25px;
+  padding-right: 10px;
+}
 
 /*************************
 ******Footer CSS****
