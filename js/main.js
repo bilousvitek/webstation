@@ -1,17 +1,4 @@
-jQuery(function($) {'use strict',
-	
-	//Countdown js
-	 $("#countdown").countdown({
-			date: "10 july 2017 12:00:00",
-			format: "on"
-		},
-		
-		function() {
-			// callback function
-		});
-	
-
-	
+jQuery(function($) {'use strict'
 	//Scroll Menu
 
 	function menuToggle()
